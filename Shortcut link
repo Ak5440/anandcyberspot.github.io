@@ -1,0 +1,275 @@
+
+<html>
+  <head>
+   <title>Anand Cyberspot</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!---center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhohxbl1c8Ms321Zrkm_HwSdaO41TEfuQzCFOwXA6BGsAkuMM66ZzFOp44735_j5ndxYrg-sDx9aaBDKGfvjQ1D9AI4mYFcMGODjb89Z8oXsRDw5TON8nWQ52c01nOQRjMz7XiHcSHlvNnTAKijZmZk1M-wXqdtReopn9-G-24OJJ8CCjvt_anIu367/w320-h320/20220410_201454-01.jpeg"  onclick="location.href='https://akcbrcafe.blogspot.com/2022/02/about-us.html'" style="width:80px; border-radius:50px;border:5px solid silver;"/><center--->
+
+  </head>
+   <body>
+     
+      <style>
+
+/* Create a column layout with Flexbox */
+.row {
+  display:;
+  text-align:center;
+}
+
+
+/* Style the search box */
+#mySearch {
+  width: 93%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+  text-align:center;
+}
+
+/* Style the navigation menu inside the left column */
+#myMenu {
+  list-style-type:none;
+  padding: 0;
+  margin: 0;
+  display:none;
+}
+
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display:block;
+}
+
+#myMenu li a:hover {
+  background-color: #eee;
+}
+</style>
+     <div class="row">
+  <div  style="background-color:#bbb;position:relative;">
+   
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+    <ul id="myMenu">
+      <li><a href="https://digitalseva.csc.gov.in/dashboard" target="_blank" >CSC</a></li>
+      <li><a href="https://edistrict.up.gov.in/edistrictup/index2.aspx" target="_blank">Edistrict</a></li>
+      <li><a href="https://www.sarkariresult.com/" target="_blank">Sarkari Result</a></li>
+      <li><a href="http://www.scholarship.up.gov.in/" target="_blank">Up Scolarship</a></li>
+      <li><a href="https://uidai.gov.in/" target="_blank">Aadhar (UIDAI)</a></li>
+      <li><a href="https://www.pan.utiitsl.com/" target="_blank" >Pan Card (UTI)</a></li>
+      <li><a href="https://voterportal.eci.gov.in/" target="_blank" >Votar Portal (ECI)</a></li>
+      <li><a href="https://register.eshram.gov.in/#/user/self" target="_blank">E shram (eshram)</a></li>
+      <li><a href="https://www.uplmis.in/Secure/Login/frm_Login.aspx" target="_blank">Labour Card (UPLMIS)</a></li>  
+      <li><a href="https://nfsa.up.gov.in/Food/citizen/Default.aspx" target="_blank" >Rasan Card (NFSA)</a></li>
+      <li><a href="https://upbhulekh.gov.in/public/public_ror/Public_ROR.jsp" target="_blank">Khasra Khatauni (Bhulekh)</a></li>
+      <li><a href="http://upbhunaksha.gov.in/bhunaksha/09/index.html" target="_blank">Bhunaksha</a></li>
+      <li><a href="https://parivahan.gov.in/parivahan//en/content/vehicle-related-services" target="_blank">Parivahan (vehicle)</a></li>
+      <li><a href="https://mera.pmjay.gov.in/search/login" target="_blank">Aayushman (pmjay)</a></li>
+      <li><a href="https://uppcl.mpower.in/wss/QuickBillPay.htm" target="_blank" >mpower (UPPCL)</a></li>
+      <li><a href="https://crsorgi.gov.in/web/index.php/auth/login" target="_blank" >Birth Death (CRSORGI)</a></li>
+      <li><a href="https://www.irctc.co.in/nget/train-search" target="_blank">Train Ticket (IRCTC)</a></li>
+      <li><a href="https://www.google.com/inputtools/try/" target="_blank" >Hindi English Typing</a></li>
+      <li><a href="https://selfregistration.cowin.gov.in/" target="_blank">Corona (cowin)</a></li>
+      <li><a href="https://epassmsdma.mahait.org/login.html" target="_blank">Univarsal Pass</a></li>
+      <li><a href="https://rhreporting.nic.in/netiay/SocialAuditReport/BeneficiaryDetailForSocialAuditReport.aspx#" target="_blank">Aawas (PMAY)</a></li>
+      <li><a href="https://pmkisan.gov.in/" target="_blank">PM Kishan (pmkishan)</a></li>
+      <li><a href="https://healthid.ndhm.gov.in/register" target="_blank" >ABHA health Card</a></li>
+      <li><a href="https://smallpdf.com/pdf-tools" target="_blank" >PDF Converter (smallpdf)</a></li>
+    </ul>
+  </div>
+       
+       <script>
+function myFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+  ul.style.display="block";
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";     
+    } else {
+      li[i].style.display = "none"; 
+      
+    }
+    if(filter.length<1)
+    {
+    ul.style.display="none";
+    }
+  }
+}
+
+</script>
+		    
+		   <div id="programming_page">
+		   <!--p id="tittel">Popular Websites</p--->
+               <a href="https://digitalseva.csc.gov.in/dashboard" target="_blank" >
+<button class="img-back">
+		   <img src="https://digitalseva.csc.gov.in/frontend/img/digital_seva_200x40.png" alt="CSC"class="e">
+</button>
+		   </a>
+               <a href="https://edistrict.up.gov.in/edistrictup/index2.aspx" target="_blank"><button name="edistrict"class="img-back">
+		   <img src="https://edistrict.co.in/wp-content/uploads/2018/03/edistrict.png" alt="E-district"class="e">
+		   </button></a>           
+             
+		   <a href="http://www.scholarship.up.gov.in/" target="_blank"><button name="scholarship"   class="img-back">
+		   <img src="https://www-sarkarinaukriexams-com.cdn.ampproject.org/i/s/www.sarkarinaukriexams.com/images/post/1604511091UP_Scholarship_New_Logo.jpg" alt="Up Scholarship"class="e">
+		   </button></a>
+		   
+		   <a href="https://www.sarkariresult.com/" target="_blank"><button name="sarkariresult"   class="img-back">
+		   <img src="https://www.sarkariresult.com/images/logo-new.png" alt="Sarkari Result" class="e">
+		   </button></a>
+		   <a href="https://uidai.gov.in/" target="_blank"><button name="aadhar" class="img-back">
+		   <img src="https://uidai.gov.in/images/logo/aadhaar_english_logo.svg" alt="Aadhar Card"class="e">
+		   </button></a>
+		   
+		   <a href="https://www.pan.utiitsl.com/" target="_blank" ><button name="pan"class="img-back">
+		   <img src="https://www.pan.utiitsl.com/PAN/resources/images/uti-images/uti-new-logo.png;jsessionid=27EC14E4241CC634DBD12A15A30BABCB" alt="Pan Card"class="e">
+		   </button></a>
+		   
+		   <a href="https://voterportal.eci.gov.in/" target="_blank" ><button name="voter"class="img-back">
+		   <img src="https://pmmodiyojanaye.in/wp-content/uploads/2021/02/voterportal.eci_.gov_.in_-768x432.png" alt="Voter Card"class="e">
+		   </button></a>
+		
+		   <a href="https://register.eshram.gov.in/#/user/self" target="_blank"><button name="codecef" class="img-back">
+		   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpAD5YSPTJWv0_AyKWbkG8c_IlT3bOUKJuTg&usqp=CAU" alt="E-shram Card"class="e">
+		   </button></a>
+		   		   <a href="https://www.uplmis.in/Secure/Login/frm_Login.aspx" target="_blank"><button name="labour card"class="img-back">
+
+		   <img src="https://pmmodiyojanaonline.in/wp-content/uploads/2021/09/Shramik-UP-Shramik-Panjikaran-Card-upbocw.in_-768x401.png" alt="Labour Card"class="e">
+
+		   </button></a>   
+               <a href="https://nfsa.up.gov.in/Food/citizen/Default.aspx" target="_blank"><button name="rasan card"class="img-back">
+
+		   <img src="https://lh3.googleusercontent.com/lKsQorLS1JSJoH-CxA3yEh0_u-8fWz-FaobV9QTunqzJZlmC7gBjJiynBcU2klzwjQ=w96" alt="Rasan Card"class="images">
+
+		   </button></a>
+             <a href="https://upbhulekh.gov.in/public/public_ror/Public_ROR.jsp" target="_blank"><button name="khasra"class="img-back">
+
+		   <img src="https://lh3.googleusercontent.com/ewrlz7k08e-QBhJj26D0oNC1PtJioOHQukEyVVyLoLuCZEveJtMJ9v5eUIVGeyG6vQE" alt="kharsra Khatauni"class="e">
+
+		   </button></a>
+               <a href="http://upbhunaksha.gov.in/bhunaksha/09/index.html" target="_blank"><button name="Bhu Naksha"class="img-back">
+
+		   <img src="https://www.hindiyojanaup.com/wp-content/uploads/2020/12/UP-Bhulekh.png" alt="Bhu Naksha"class="e">
+
+		   </button></a>
+		   
+		   <a href="https://parivahan.gov.in/parivahan//en/content/vehicle-related-services" target="_blank"><button name="vahan"class="img-back">
+		   <img src="https://vahan.parivahan.gov.in/vahantc/vahan/javax.faces.resource/e-vahan_logo-tri-color.png?ln=images" alt="vahan"class="e">
+		   </button></a>
+		   
+		   <a href="https://mera.pmjay.gov.in/search/login" target="_blank"><button name="aayushman"class="img-back">
+		   <img src="https://mera.pmjay.gov.in/search/images/logo_center.png" alt="Aayushman Card"class="e">
+		   </button></a>
+             <a href="https://uppcl.mpower.in/wss/QuickBillPay.htm" target="_blank"><button name="uppcl"class="img-back">
+
+		   <img src="https://pbs.twimg.com/profile_images/706763223928705024/poULoVgG_400x400.jpg" alt="UPPCL"class="e">
+
+		   </button></a>
+              <a href="https://crsorgi.gov.in/web/index.php/auth/login" target="_blank"><button name="birth&death"class="img-back">
+
+		   <img src="https://images-indianexpress-com.cdn.ampproject.org/i/s/images.indianexpress.com/2016/08/birth-and-death-registration-1200.jpg?w=389" alt="Birth & Death"class="e">
+
+		   </button></a>
+              <a href="https://www.irctc.co.in/nget/train-search" target="_blank"><button name="irctc"class="img-back">
+
+		   <img src="https://thetortoise.in/wp-content/uploads/2021/02/IRCTC.jpg" alt="IRCTC"class="e">
+
+		   </button></a>
+               <a href="https://www.google.com/inputtools/try/" target="_blank"><button name="English Hindi typing"class="img-back">
+
+		   <img src="https://5.imimg.com/data5/XE/NC/NK/ANDROID-89010669/product-jpeg-500x500.jpg" alt="English & Hindi Typing"class="e">
+
+		   </button></a> 
+             
+		 <a href="https://selfregistration.cowin.gov.in/" target="_blank">
+		   <button name="Cowin"class="img-back">
+		   <img src="https://vaccine.icmr.org.in/images/partners/cowinlogo.png"alt="Cowin"class="e">
+		   </button></a> 
+		   
+		   <a href="https://epassmsdma.mahait.org/login.htm" target="_blank">
+		   <button name="UnivarsalPass"class="img-back">
+		   <img src="https://epassmsdma.mahait.org/resources/images/universal-hd3.svg"alt="Univarsal Pass"class="e">
+		   </button></a>  
+          <a href="https://rhreporting.nic.in/netiay/SocialAuditReport/BeneficiaryDetailForSocialAuditReport.aspx#" target="_blank"><button name="PMAY"   class="img-back">
+
+		   <img src="https://rhreporting.nic.in/netiay/images/pmay-g-logo.png" alt="PMAY"class="e">
+
+		   </button></a>
+             <a href="https://pmkisan.gov.in/" target="_blank"><button name="pmkishan"   class="img-back">
+
+		   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTNOdyA6kVvGfW6OpMlHHOoCnl3bOPbRmnRg&usqp=CAU" alt="PM kishan"class="e">
+
+		   </button></a>
+             
+             <a href="https://healthid.ndhm.gov.in/register" target="_blank"><button name="healthcard"   class="img-back">
+
+		   <img src="https://marathidiary.com/wp-content/uploads/2021/10/Digital-Health-ID-Card-Apply-Online-Marathi.jpg" alt="ABHA Health Card"class="e">
+
+		   </button></a>
+             
+             <a href="https://smallpdf.com/pdf-tools" target="_blank"><button name="Smallpdf"   class="img-back">
+
+		   <img src="https://smallpdf.com/build/95cf74e5f89f93cfd5f97d16fa673f05.svg" alt="Small Pdf"class="e">
+
+		   </button></a>
+	   </div><!--- programming page closed--->
+		
+    <hr> <br><br>  
+   </body>
+   </html>
+<style type="text/css">
+*{
+  padding:0px;
+  margin:0px;
+  }
+#programming_page 
+{
+display:block;
+margin-top:15px;
+background:;
+bottom:0%;
+left:2px;
+right:2px;
+border-radius:5px;
+border:0px solid red;
+}
+
+#tittel
+{
+font-size:28px;
+font-weight:bolder;
+margin-top:-12px;
+background: -webkit-linear-gradient(#e1bee7 20%,#d500f9);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+
+
+
+ .e
+{
+width:165px;
+max-height:94%;
+min-height:85%;
+border:0px solid red;
+}
+  .img-back{
+position:relative;
+float:left;
+margin-left:10px; 
+margin-top:8px;
+border-radius:8px;
+width:154px;
+height:110px;
+background:none;
+border:0px solid blue;
+border-top:1px solid gray;
+box-shadow: 0 15px 30px rgba(0,0,0,0.20), 0 11px 8px rgba(0,0,0,0.22);  
+overflow:hidden;
+}
+</style>
